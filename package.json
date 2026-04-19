@@ -1,0 +1,56 @@
+{
+  "name": "autoresolve-ai-enterprise",
+  "version": "2.0.0",
+  "description": "Enterprise-Grade Autonomous AI Support System with Database, Queue, LLM, Email, Metrics, Auth & Webhooks",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "echo \"No tests configured yet\"",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "support",
+    "automation",
+    "mongodb",
+    "redis",
+    "queue",
+    "llm",
+    "claude",
+    "email",
+    "metrics",
+    "prometheus"
+  ],
+  "author": "AutoResolve AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0",
+    "redis": "^4.6.12",
+    "bull": "^4.11.5",
+    "@anthropic-ai/sdk": "^0.9.1",
+    "nodemailer": "^6.9.7",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "prom-client": "^15.0.0",
+    "winston": "^3.11.0",
+    "axios": "^1.6.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
