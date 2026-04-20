@@ -94,7 +94,7 @@ Managing time constraints during development
 ⚡ Real-time monitoring system
 
 👨‍💻 Author
-Laksh Arora
+www.laksharora.in
 
 🏁 Conclusion
 AutoResolve AI demonstrates how agentic AI can transform problem-solving workflows by reducing human effort and increasing efficiency.
